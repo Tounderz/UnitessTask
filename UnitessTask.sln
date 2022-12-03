@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitessTask", "UnitessTask\UnitessTask.csproj", "{A0D62ED7-DBE3-4958-92C0-15295AD694D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitessLibrary", "UnitessLibrary\UnitessLibrary.csproj", "{7D94BB27-D550-4021-9B47-4B80A6DCA265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D62ED7-DBE3-4958-92C0-15295AD694D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D62ED7-DBE3-4958-92C0-15295AD694D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D62ED7-DBE3-4958-92C0-15295AD694D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D62ED7-DBE3-4958-92C0-15295AD694D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D94BB27-D550-4021-9B47-4B80A6DCA265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D94BB27-D550-4021-9B47-4B80A6DCA265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D94BB27-D550-4021-9B47-4B80A6DCA265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D94BB27-D550-4021-9B47-4B80A6DCA265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AED7961-4704-4423-981F-35B177492963}
+	EndGlobalSection
+EndGlobal

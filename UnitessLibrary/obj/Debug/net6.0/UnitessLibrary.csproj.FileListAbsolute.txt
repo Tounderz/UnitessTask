@@ -1,0 +1,12 @@
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\bin\Debug\net6.0\UnitessLibrary.deps.json
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\bin\Debug\net6.0\UnitessLibrary.dll
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\bin\Debug\net6.0\UnitessLibrary.pdb
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.csproj.AssemblyReference.cache
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.AssemblyInfoInputs.cache
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.AssemblyInfo.cs
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.dll
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\refint\UnitessLibrary.dll
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\UnitessLibrary.pdb
+C:\Users\basta\source\repos\UnitessTask\UnitessLibrary\obj\Debug\net6.0\ref\UnitessLibrary.dll
