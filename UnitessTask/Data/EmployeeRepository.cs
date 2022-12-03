@@ -33,6 +33,16 @@ namespace UnitessTask.Data
         private List<EmployeeModel> CreateList(int start, int end)
         {
             int count = _context.Employees.Count();
+            if (start == 0)
+            {
+                start++;
+            }
+
+            if (end == 0) 
+            { 
+                end++;
+            }
+
             if (end > count)
             {
                 return _context.Employees.Skip(start - 1).Take(count).ToList();
