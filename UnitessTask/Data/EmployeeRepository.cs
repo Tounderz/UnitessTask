@@ -15,6 +15,12 @@ namespace UnitessTask.Data
 
         public List<EmployeeModel> GetEmployees(ParametersDto model)
         {
+            int count = _context.Employees.Count();
+            if (model.Start > count && model.End > count)
+            {
+                return null;
+            }
+            
             if (model.Start == 0 && model.End == 0)
             {
                 return _context.Employees.ToList();
@@ -33,19 +39,15 @@ namespace UnitessTask.Data
         private List<EmployeeModel> CreateList(int start, int end)
         {
             int count = _context.Employees.Count();
-            if (start == 0)
-            {
-                start++;
-            }
-
-            if (end == 0) 
-            { 
-                end++;
-            }
-
             if (end > count)
             {
-                return _context.Employees.Skip(start - 1).Take(count).ToList();
+                count -= start;
+                if (count <= 0)
+                {
+                    return null;
+                }
+
+                end = _context.Employees.Count();
             }
 
             return _context.Employees.Where(i => i.Id >= start && i.Id <= end).ToList();
